@@ -1,0 +1,11 @@
+{
+    "foods": [{
+        "name": "Jollof Rice and Chicken",
+        "price": "N1,500"
+    },
+    {
+        "name": "Pounded Yam and Egusi",
+        "Price": "N2,000"
+    }
+]
+}
