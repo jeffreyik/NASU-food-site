@@ -91,7 +91,6 @@ button {
     color: #fff;
 }
 
-
 .secondary-btn-2 {
     position: relative;
     background-color: transparent;
@@ -130,7 +129,6 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5em;
     top: 0;
     right: 0;
     background-color: #fff;
@@ -139,6 +137,10 @@ button {
     z-index: 3000;
     transform: translateX(100%);
     transition: transform .5s ease-in-out;
+}
+
+.hamburger-menu .menu > * {
+    margin: 3em 0;
 }
 
 .hamburger-menu .menu.open-menu {
@@ -160,7 +162,6 @@ button {
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 8px;
     width: 40px;
     outline: none;
     z-index: 5000;
@@ -171,6 +172,7 @@ button {
     width: 100%;
     height: 2px;
     background-color: #000;
+    margin: 4px 0;
 }
 
 a.nav-link {
@@ -494,7 +496,6 @@ footer {
 .footer-items {
     display: flex;
     justify-content: space-between;
-    gap: 4em;
     flex-wrap: wrap;
     padding-top: 5em;
     padding-bottom: 10em;
@@ -503,6 +504,7 @@ footer {
 .footer-items .col {
     display: flex;
     flex-direction: column;
+    margin: 2em;
 }
 
 .footer-items a {
